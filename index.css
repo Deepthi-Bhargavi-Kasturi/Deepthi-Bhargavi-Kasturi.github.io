@@ -137,7 +137,7 @@ section.section-work { box-sizing: border-box; width: 100%; height: 31.25rem/*50
 section.section-work div.work { box-sizing: border-box; width: 91.14607069289243%/*1000px*/; height: 28.125rem/*450px*/; border: solid black; margin-left: 4.557303534644621%/*50px*/; 
 								margin-top: 1.4375rem/*23px*/; background-color: white; padding: 0.9375rem/*15px*/; }
 section.section-work div.work h2.h2-work { margin-top:0; margin-bottom:0.625rem/*10px*/; }
-section.section-work div.work div.work-image { background:url(images/work_img.png) no-repeat; background-size: 100% 100%; width: 100%; height: 19.5625rem/*313px*/; margin-top: 0.9375rem/*15px*/; }
+section.section-work div.work div.work-image { background:url(images/work_img.PNG) no-repeat; background-size: 100% 100%; width: 100%; height: 19.5625rem/*313px*/; margin-top: 0.9375rem/*15px*/; }
 
 /* article */
 
@@ -254,7 +254,7 @@ section.professionalexp div.content-oracle h2.prof-header { font-size:1.4rem; }
 
 /* section work */
 
-section.section-work div.work div.work-image { background:url(images/work_img_1280.png) no-repeat; background-size: 100% 100%; }
+section.section-work div.work div.work-image { background:url(images/work_img_1280.PNG) no-repeat; background-size: 100% 100%; }
 
 
 /* article */
@@ -400,7 +400,7 @@ footer a.fb { margin-left:68%; }
 	/* section - work*/
 
 	section.section-work div.work p { font-size:1.3156799rem; text-align:justify; text-justify:inter-word; }
-	section.section-work div.work div.work-image { background:url(images/work_img_767.png) no-repeat; background-size: 100% 100%; }
+	section.section-work div.work div.work-image { background:url(images/work_img_767.PNG) no-repeat; background-size: 100% 100%; }
 
 	/* article */
 
@@ -524,7 +524,7 @@ footer a.fb { margin-left:68%; }
 	section.section-work div.work > p { font-size:1.2rem; }
 	section.section-work div.work h2.h2-work { font-size:1.2rem; }
 
-	section.section-work div.work div.work-image { background:url(images/work_img_420.png) no-repeat; background-size: 100% 100%; }
+	section.section-work div.work div.work-image { background:url(images/work_img_420.PNG) no-repeat; background-size: 100% 100%; }
 
     article div.recommended p.article-para a > span { display:none; }
 	article div.recommended p.article-para a { width: 80%; margin-left:9%;}
