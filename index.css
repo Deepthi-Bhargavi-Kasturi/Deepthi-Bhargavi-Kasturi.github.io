@@ -1,0 +1,638 @@
+/* CSS for screen */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
+
+body {
+	font-family: 'Open Sans', Sans Serif;
+	font-size: 16px;
+	font-weight:300;
+    margin: 0;
+	padding: 0;
+	background: url(images/background.jpg); background-size: cover; 
+}
+
+#page { width:60vw; margin: 0 auto; background-color: white; } /*1904/100 = 19.04 = 1vw; 60vw = 1142.4px*/
+
+/* Header */
+
+header { background-image: url(images/headerbg.jpg); background-size:cover; }
+
+header div.text-and-navigation {display:flex; flex-wrap:wrap; align-items: center; height: 9.375rem/*150/16*/; background-color: rgba(0,0,0,0.8); }
+
+header div.welcome-text { margin: 0 auto 0 auto; padding:0;}
+header div.welcome-text h1 { display:inline; color:white;font-size: 4.5rem; letter-spacing: 1.4rem; font-family: 'Indie Flower', cursive; }
+header div.welcome-text h1:nth-child(2) { color: red; }
+header div.welcome-text h1:nth-child(4) { color: yellow; }
+header div.welcome-text h1:nth-child(6) { color: blue; }
+header div.welcome-text h1:nth-child(8) { color: red; }
+header div.welcome-text h1:nth-child(10) { color: yellow; }
+header div.welcome-text h1:nth-child(12) { color: blue; }
+
+/* Header - description-of-self */
+
+header div.description-of-self {  display:flex; align-items: center; justify-content:center; color: white; background-color: rgba(0,0,0,0.8);
+								  padding-top:.5rem; padding-left: 1.750700280112045%/*20/1142.4*/; padding-bottom:1rem; }
+
+header div.description-of-self div.profile-picture { width: 23.19677871148459%/*265/1142.4*/; height: 12.8125rem/*205/1142.4*/; border: solid black; margin-left: 1.4005602240896%/*15/1142.4*/; 
+													 margin-right: 3.939075630252101%/*45/1142.4*/; margin-top: 2.5rem/*40/16*/; margin-bottom:2.5rem/*40/1142.4*/; }
+header div.description-of-self div.profile-picture > img { width: 100%; height: 100%; }
+header div.description-of-self div.profile-picture:hover { transform: rotate(-20deg); -ms-transform: rotate(-20deg); -webkit-transform: rotate(-20deg);  }
+
+header div.description-of-self div.about-content { padding:0.8753501400560224%/*10/1142.4*/; width: 52.52100840336134%/*600/1142.4*/; height: 20rem/*320/16*/; text-align:justify; text-justify:inter-word; margin-bottom: 0.625rem/*10/16*/; }
+header div.description-of-self div.about-content h3 { font-size: 1.4375rem/*23/16*/; font-family: 'lobster', cursive; } 
+header div.description-of-self div.about-content p { font-size: 1.6875rem/*27/16*/; font-family: serif; font-weight: 300;  padding-left:0;}
+
+header div.description-of-self div.block-quote { box-sizing: border-box; align-self: stretch; height: auto; margin-top: 4.375rem/*70/16*/; }
+header div.description-of-self div.block-quote blockquote { width: 16.80672268907563vw/*320/19.04*/; height:100%; background-color: white; padding-right:0.7878151260504202vw/*15/16*/;  margin-right: 0.7878151260504202vw/*15/19.04*/ }
+header div.description-of-self div.block-quote blockquote p { color: black; font-weight: bold; font-size: 1.125rem/*18/16*/; padding-left:1.733193277310924vw/*33/19.04*/; padding-top:0; padding-bottom:0; }
+header div.description-of-self div.block-quote blockquote p.quote { font-size: 1.375rem; font-style: italic; padding-top:0.7rem; padding-bottom: 0.3rem; text-align:justify; text-justify:inter-word; }
+header div.description-of-self div.block-quote blockquote p.quote::before { content:'\201c'; color: black; font-size:3.125rem/*50/16*/; font-family: serif; color: #800000;}
+header div.description-of-self div.block-quote blockquote p.quote::after { content:'\201d'; font-family:serif; font-size: 1.875rem/*30/16*/; color: #800000; }
+header div.description-of-self div.block-quote blockquote p.quote span { font-size: 1.5625rem/*25/16*/; font-family: serif; }
+header div.description-of-self div.block-quote blockquote p.credit { font-family: serif; font-size: 1.375rem/*22/16*/; padding-bottom: 0.625rem/*1016*/; }
+header div.description-of-self div.block-quote blockquote p.credit::before {content:'\2014'; color: #800000; }
+
+/* Section  technical-interest*/
+
+section { margin-top: 1.8125rem;/*29/16*/; margin-bottom:0; width:auto;}
+
+section p.text-tech { font-size: 1.6875rem/*27/16*/; font-family: serif; font-weight: 300;
+					 margin-left: 1.925770308123249%/*22/1142.4*/; width: 95.85084033613445%/*1095/1142.4*/; height: 5rem/*80/16*/; margin-bottom:1rem; padding-top: 0.625rem/*10/16*/; }
+section p.text-tech::before { content:'\2014'; color: #800000; font-weight: bold; }
+
+section aside.tech { background-image: url(images/tech_image.jpg); background-size: cover; margin-bottom:0; overflow: hidden;}
+
+section aside div.technologies-interested { display:flex; flex-wrap: wrap; 
+											box-sizing: border-box; justify-content:space-around;
+											width: 100%; height: 28.125rem/*450/16*/; 
+										    background-color: rgba(0,0,0,0.6);
+										    margin-bottom:0; 
+										    padding-top: 0.9375rem/*15/16*/; padding-right: 0.5252100840336134vw/*10px*/; padding-bottom:0; }
+
+section aside div.technologies-interested div.tech { box-sizing: border-box; width: 30%; height: 6.875rem/*110/16*/; margin-top: 0.9375rem/*15/16*/; border: solid white; box-shadow: 0 0 1.875rem/*30/16*/ white; 
+													 transition: .5s; -o-transition: .5s; -webkit-transition: .5s; -moz-transition: .5s; }
+section aside div.technologies-interested div.tech:hover { transform: scale(1.05,1.05); -moz-transform: scale(1.05,1.05); -webkit-transform: scale(1.05,1.05); -ms-transform: scale(1.05,1.05); -o-transform: scale(1.05,1.05); }
+
+section aside div.technologies-interested div.tech p { display: inline-block; font-size: 2.8125rem/*45/16*/; color: white; font-family: serif; margin-left: 46.875%/*150/320*/; }
+section aside div.technologies-interested div.tech.html, div.tech.css, div.tech.java { letter-spacing: 0.3125rem/*5/16*/; line-height: 1.3125rem/*21/16*/;  }
+section aside div.technologies-interested div.tech.bc p { font-size: 2.1875rem/*35/16*/; margin-left: 37.5%/*120/320*/; letter-spacing: 0.0625rem/*1/16*/; }
+section aside div.technologies-interested div.tech.js p { font-size: 2.03125rem/*32.5/16*/; margin-left: 34.375%/*110/320*/; }
+section aside div.technologies-interested div.tech.db p { font-size: 2rem/*32/16*/; margin-left: 40.625%/*130/320*/; }
+section aside div.technologies-interested div.tech.ai p { font-size: 2rem/*32/16*/; margin-left: 43.75%/*140/320*/; letter-spacing: 0.0625rem/*1/16*/; }
+
+section aside div.technologies-interested div.tech.html { background: url(icons/html.svg) no-repeat; background-size: 28.125% 5.625rem/*90/320;90/16*/; background-position: 1.71875%/*5.5/320*/ center; margin-left: 0.8753501400560224%;/*10/1142.4*/; }
+section aside div.technologies-interested div.tech.css { background: url(icons/css.svg) no-repeat; background-size: 28.125% 5.625rem/*90/320;90/16*/; background-position: 1.71875%/*5.5/320*/ center; margin-left: 0.8753501400560224%;/*10/1142.4*/; }
+section aside div.technologies-interested div.tech.js { background: url(icons/javascript.svg) no-repeat; background-size: 28.125% 5.625rem/*90/320;90/16*/; background-position: 1.71875%/*5.5/320*/ center; margin-left: 0.8753501400560224%;/*10/1142.4*/; }
+section aside div.technologies-interested div.tech.java { background: url(icons/java.svg) no-repeat; background-size: 28.125% 5.625rem/*90/320;90/16*/; background-position: 1.71875%/*5.5/320*/ center; margin-left: 0.8753501400560224%;/*10/1142.4*/; }
+section aside div.technologies-interested div.tech.db { background: url(icons/database.svg) no-repeat; background-size: 28.125% 5.625rem/*90/320;90/16*/; background-position: 1.71875%/*5.5/320*/ center; margin-left: 0.8753501400560224%;/*10/1142.4*/; }
+section aside div.technologies-interested div.tech.bc { background: url(icons/blockchain.svg) no-repeat; background-size: 28.125% 5.625rem/*90/320;90/16*/; background-position: 1.71875%/*5.5/320*/ center; margin-left: 0.8753501400560224%;/*10/1142.4*/; }
+section aside div.technologies-interested div.tech.ai { background: url(icons/artificial-intelligence.svg) no-repeat; background-size: 28.125% 5.625rem/*90/320;90/16*/; background-position: 1.71875%/*5.5/320*/ center; margin-left: 0.8753501400560224%;/*10/1142.4*/; }
+
+section aside div.technologies-interested div.tech.quotepart { flex-grow: .9; align-self: stretch; height: auto; background-color: white; border-style: none; box-shadow: 0 0 0 rgb(238,233,217); padding:0; }
+section aside div.technologies-interested div.tech.quotepart:hover { transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); -ms-transform: scale(1,1); -o-transform: scale(1,1); }
+
+section aside div.technologies-interested div.tech.quotepart blockquote p, p:nth-child(2) { font-size: 1.5625rem;/*25/16*/; color: black; font-family:serif; margin:0; padding:0;}
+section aside div.technologies-interested div.tech.quotepart blockquote p { margin-bottom: .5rem; }
+section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) { margin-left: 65%; }
+section aside div.technologies-interested div.tech.quotepart blockquote p.techquote::before { content:'\201c'; font-size:3.4375rem/*55/16*/; font-family: serif; color: #800000; }
+section aside div.technologies-interested div.tech.quotepart blockquote p.techquote::after { content:'\201d'; font-family:serif; font-size: 2.1875rem/*35/16*/; color: #800000; }
+section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2)::before { content:'\2014'; color: #800000; font-weight: bold; }
+
+/* section - professionalexp */
+
+section.professionalexp { background-color: white; margin-top:0; padding: 1.875rem/*30/16*/;}
+
+section.professionalexp div.content-professional { 
+display: flex; flex-direction: column; justify-content: center; 
+background-color: white;
+box-sizing: border-box;
+padding: 0.625rem/*10/16*/; 
+margin:0 auto 0 auto;
+width: 96.3%; height: 20rem; border: solid black; padding: 0.625rem/*10/16*/; ; border: solid #C2DFFF; box-shadow: 0 0 1.875rem/*30/16*/ #C2DFFF; 
+transition: .5s; -o-transition: .5s; -webkit-transition: .5s; -moz-transition: .5s;}
+section.professionalexp div.content-professional:hover { transform: scale(1.05,1.05); -moz-transform: scale(1.05,1.05); -webkit-transform: scale(1.05,1.05); -ms-transform: scale(1.05,1.05); -o-transform: scale(1.05,1.05); color: #CD7F32;} 
+section.professionalexp div.content-professional p.prof-txt { margin-top: 0.75rem/*12px*/; margin-bottom: 0.3125rem/*5px*/; }
+section.professionalexp div.content-professional p.prof-txt, ul li { font-size:1.5625rem/*25px*/; font-family: serif; text-align:justify; text-justify:inter-word; }
+section.professionalexp div.content-professional ul li { font-size: 1.25rem/*20px*/; margin-bottom: 0.3125rem/*5px*/;}
+section.professionalexp div.content-professional p.prof-txt::before { content:'\2192'; }
+
+section.professionalexp div.professionalexp-container { display: flex; justify-content: space-between; padding: 0.3125rem/*5px*/ 1.9%; box-sizing: border-box; margin-top:1rem; }
+
+section.professionalexp div.content-techm { box-sizing: border-box; width: 49%/*490/1000px*/; height: 20rem; padding: 0.9375rem/*15px*/; background-color: white; border: solid #C2DFFF; box-shadow: 0 0 1.875rem/*30/16*/ #C2DFFF;
+											transition: .5s; -o-transition: .5s; -webkit-transition: .5s; -moz-transition: .5s;}
+section.professionalexp div.content-techm:hover { transform: scale(1.05,1.05); -moz-transform: scale(1.05,1.05); -webkit-transform: scale(1.05,1.05); -ms-transform: scale(1.05,1.05); -o-transform: scale(1.05,1.05); color: #CD7F32; }
+section.professionalexp div.content-techm h2, p { font-family: serif; } 
+section.professionalexp div.content-techm p.prof-para { font-size: 1.25rem/*20px*/; letter-spacing: 0; text-align:justify; text-justify:inter-word;  }
+
+section.professionalexp div.content-oracle { box-sizing: border-box; width: 49%/*490px/1000*/; height: 20rem; padding:  0.9375rem/*15px*/; background-color: white; border: solid #C2DFFF; box-shadow: 0 0 1.875rem/*30/16*/ #C2DFFF; 
+											 transition: .5s; -o-transition: .5s; -webkit-transition: .5s; -moz-transition: .5s; }
+section.professionalexp div.content-oracle:hover { transform: scale(1.05,1.05); -moz-transform: scale(1.05,1.05); -webkit-transform: scale(1.05,1.05); -ms-transform: scale(1.05,1.05); -o-transform: scale(1.05,1.05); color: #CD7F32;}
+section.professionalexp div.content-oracle h2, p { font-family: serif; } 
+section.professionalexp div.content-oracle p.prof-para { font-size: 1.25rem/*20px*/; letter-spacing: 0; text-align:justify; text-justify:inter-word;  }
+
+/* Section - work */
+
+section.section-work { box-sizing: border-box; width: 100%; height: 31.25rem/*500px*/; border: solid black; border-radius: 2.5rem/*40px*/; background-color: black; margin-top:0;}
+
+section.section-work div.work { box-sizing: border-box; width: 91.14607069289243%/*1000px*/; height: 28.125rem/*450px*/; border: solid black; margin-left: 4.557303534644621%/*50px*/; 
+								margin-top: 1.4375rem/*23px*/; background-color: white; padding: 0.9375rem/*15px*/; }
+section.section-work div.work h2.h2-work { margin-top:0; margin-bottom:0.625rem/*10px*/; }
+section.section-work div.work div.work-image { background:url(images/work_img.png) no-repeat; background-size: 100% 100%; width: 100%; height: 19.5625rem/*313px*/; margin-top: 0.9375rem/*15px*/; }
+
+/* article */
+
+section.section-article { box-sizing: border-box; width: 100%; height: 21.875rem; background-color: #CD7F32; margin-top: 1.8125rem; padding: 1rem; }
+
+section > article { background: url(images/web-design.jpg) no-repeat; background-size: 40%; margin-top:0; text-align:justify; text-justify:inter-word; }
+
+article div.recommended h2 { margin-left: 42.83865322565944%/*470px*/; color: white; font-style: italic; font-family: 'lobster', cursive; font-size: 1.6875rem/*27px*/; margin-bottom:1.0625rem;/*17/16*/}
+article div.recommended p.article-para { margin-left: 42.83865322565944%/*470px*/; color: white; font-size: 1.4rem; }
+article div.recommended p.article-para a { display: inline-block; text-decoration: none; color: white; width: 50%; height: 2.1875rem/*35px*/; border: solid white; text-align: center; padding-top: 0.34375rem/*5.5px*/; transition: .5s}
+article div.recommended p.article-para a:hover { background-color: rgba(255,255,255,0.3); }
+
+/* footer */
+
+footer { width: 100%; height: 3.75rem/*60px*/; box-sizing: border-box; border-color: black; margin-left: 1.822921413857849%/*20px*/; margin-top: 1.25rem/*20px*/; }
+
+footer p { display:inline-block; font-size: 1.25rem; margin-left: 0.9114607069289243%/*10px*/; }
+footer a.fb { margin-left:72.91685655431394%; }
+footer a.fb::after { content: url(icons/iconmonstr-facebook.svg); }
+footer a.linkedin::after { content: url(icons/iconmonstr-linkedin.svg); }
+footer a.insta::after { content: url(icons/iconmonstr-instagram.svg); display: inline-block; }
+footer a.git::after { content: url(icons/iconmonstr-github.svg); display: inline-block; }
+footer a { margin: 0.3125rem/*5px*/;}
+
+/* media queries */
+
+@media all and (min-width:2500px) {
+
+	header div.description-of-self div.profile-picture { height:16rem; }
+
+	header div.description-of-self div.about-content h3 { font-size: 2rem; } 
+	header div.description-of-self div.about-content p { font-size: 2.3rem; }
+
+	header div.description-of-self div.block-quote blockquote p.quote { font-size:2.3rem; }
+	header div.description-of-self div.block-quote blockquote p.credit { font-size:2rem; }
+
+    section aside div.technologies-interested div.tech.quotepart blockquote p { font-size:2.2rem; }
+	section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) { font-size:2rem; }
+
+	section.professionalexp { background-color: white; margin-top:1rem; padding:.5rem; margin-bottom:.8rem; }
+
+	section.professionalexp div.content-professional { margin-top:2rem; }
+
+	section.professionalexp div.content-techm p.prof-par { font-size:3rem; } 
+	section.professionalexp div.content-techm h2.prof-header { font-size:2.4rem; }
+
+	section.professionalexp div.content-oracle p.prof-par { font-size:3rem; }
+	section.professionalexp div.content-oracle h2.prof-header { font-size:2.4rem; }
+
+
+}
+
+@media all and (min-width:1281px) and (max-width:1700px) {
+
+	#page { width:85vw; }
+
+	header div.welcome-text h1 { font-size: 3.3125rem; }
+
+}
+
+
+@media all and (max-width:1280px) {
+
+#page { width:80vw; }
+
+/* Header */
+
+header div.welcome-text { padding:0; }
+
+header div.welcome-text h1 { font-size: 3.3125rem; }
+
+header div.description-of-self { flex-wrap: wrap; }
+
+header div.description-of-self div.profile-picture { height: 13.5rem; margin-bottom:4rem; margin-top: 3rem; margin:left:0;}
+
+
+header div.description-of-self div.about-content { width: 57.52100840336134%; margin-left:2%; margin-bottom:0; }
+header div.description-of-self div.about-content h3 { font-size: 1.5rem; } 
+header div.description-of-self div.about-content p { font-size: 1.7rem; }
+
+header div.description-of-self div.block-quote { margin:0; padding:0; }
+header div.description-of-self div.block-quote blockquote { width: 75vw; height:80%;margin-left:-.5%; background-color: transparent; box-shadow: 0 0 25px white;}
+header div.description-of-self div.block-quote blockquote p { color: white; }
+header div.description-of-self div.block-quote blockquote p.quote::before { color: red;}
+header div.description-of-self div.block-quote blockquote p.quote::after { color: yellow; }
+header div.description-of-self div.block-quote blockquote p.credit::before { color: blue; }
+
+/* Section - technicalinterest*/
+
+section p.text-tech { margin-bottom: 1.2rem; font-size: 1.4875rem; }
+
+section aside div.technologies-interested div.tech p { margin-left:37%;}
+section aside div.technologies-interested div.tech.bc p { font-size: 2rem; margin-left: 45%; }
+section aside div.technologies-interested div.tech.js p { font-size: 1.8rem; }
+section aside div.technologies-interested div.tech.db p { font-size: 1.8rem; margin-left: 33%; }
+section aside div.technologies-interested div.tech.ai p { font-size: 1.8rem; margin-left: 35%; }
+
+section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) { margin-left: 55%; }
+section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) { font-size:1.49rem; }
+
+/* section - professionalexp */
+
+section.professionalexp { background-color: white; margin-top:1rem; padding:.5rem; margin-bottom:.8rem; }
+
+section.professionalexp div.content-professional { height: 22rem; }
+
+section.professionalexp div.content-techm { padding-top:0; height: 20rem; }
+section.professionalexp div.content-techm p.prof-par { font-size:1.5rem; } 
+section.professionalexp div.content-techm h2.prof-header { font-size:1.4rem; }
+
+section.professionalexp div.content-oracle { padding-top:0; height: 20rem; }
+section.professionalexp div.content-oracle p.prof-par { font-size:1.5rem; }
+section.professionalexp div.content-oracle h2.prof-header { font-size:1.4rem; }
+
+/* section work */
+
+section.section-work div.work div.work-image { background:url(images/work_img_1280.png) no-repeat; background-size: 100% 100%; }
+
+
+/* article */
+
+section.section-article { height: 50%; padding-top:.1rem; }
+
+section > article { background-size: 41% 100%; margin-top:0; }
+
+article div.recommended { margin:0 auto 0 auto; }
+
+article div.recommended h2 { font-size: 1.4875rem; margin-bottom:1rem; }
+article div.recommended p.article-para { font-size: 1.3rem; margin-bottom:.5rem; }
+article div.recommended p.article-para a { width: 64%; font-size:1.5rem; }
+
+/* Footer */
+
+footer a.fb { margin-left:68%; }
+
+}
+
+@media all and (max-width:1000px) {
+
+	#page { width:85vw; }
+
+	/* header */
+
+	header div.description-of-self div.block-quote { padding:1.3rem; }
+
+	/* Section  technical-interest*/
+
+	section p.text-tech { text-align:justify; text-justify:inter-word; margin-bottom:1.2rem; }
+
+	section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) { margin-left: 50%; }
+	section aside div.technologies-interested div.tech p { margin-left:35%; }
+	section aside div.technologies-interested div.tech.js p { font-size: 1.7rem; }
+	section aside div.technologies-interested div.tech.db p { font-size: 1.7rem; }
+	section aside div.technologies-interested div.tech.ai p { font-size: 1.7rem; }
+
+	/* section - professionalexp */
+
+	section.professionalexp div.content-professional { height:50%; }
+
+	section.professionalexp div.content-techm  { height:22.5rem; }
+	section.professionalexp div.content-techm h2.prof-header { font-size:1.3rem; }
+
+	section.professionalexp div.content-oracle { height:22.5rem; }
+	section.professionalexp div.content-oracle h2.prof-header { font-size:1.3rem; }
+
+	/* article */
+
+	article div.recommended p.article-para a { width: 65%; font-size:1.45rem; }
+
+	/* Footer */
+
+	footer a.fb { margin-left:65%; }
+	
+
+}
+
+@media all and (min-width:768px) and (max-width:899px) {
+
+	#page { width:95vw; }
+
+	/* header */
+
+	header div.welcome-text { margin:0 auto 0 auto; }
+
+	header div.welcome-text h1 { font-size: 4rem; letter-spacing: .5rem; }
+
+	header div.description-of-self div.profile-picture { width: 26.19677871148459%; height: 14.5rem; margin-left:2%;}
+
+	header div.description-of-self div.block-quote blockquote { width: 90vw; margin-top:2rem; }
+	header div.description-of-self div.block-quote blockquote p { color: white; }
+	header div.description-of-self div.block-quote blockquote p.quote::before { color: red;}
+	header div.description-of-self div.block-quote blockquote p.quote::after { color: yellow; }
+	header div.description-of-self div.block-quote blockquote p.credit::before { color: blue; }
+
+	/* secion technical-interest*/
+
+	section aside div.technologies-interested div.tech.quotepart blockquote p, p:nth-child(2) { font-size: 1.3625rem; }
+
+	section aside div.technologies-interested div.tech p { font-size:2.65rem; }
+	section aside div.technologies-interested div.tech.css p { margin-left:40%; }
+	section aside div.technologies-interested div.tech.js p { font-size: 1.6rem; }
+	section aside div.technologies-interested div.tech.db p { font-size: 1.6rem; margin-left: 33%; }
+	section aside div.technologies-interested div.tech.ai p { font-size: 1.6rem; margin-left: 35%; }
+
+	/* section - work*/
+
+	section.section-work div.work p { font-size:1.5rem; }
+
+	/* article */
+
+	article div.recommended p.article-para a { width: 65%; font-size:1.35rem; }
+
+}
+
+@media all and (max-width:767px) {
+
+	#page { width:96vw; }
+
+	/* header */
+
+	header div.welcome-text h1 { font-size: 4rem; letter-spacing: 0;}
+
+    header div.description-of-self { flex-wrap:wrap; align-content: unset; justify-content: unset; padding-bottom:0;}
+
+	header div.description-of-self div.about-content { order:1; }
+
+	header div.description-of-self div.profile-picture { width: 32.19677871148459%; height: 14.8125rem; margin-left: 4.4005602240896%/*15/1142.4*/; margin-bottom: 1.5rem; }
+
+	header div.description-of-self div.block-quote blockquote { box-sizing: border-box; width: 50vw; height:95%; padding-right: .4rem; }
+	header div.description-of-self div.block-quote { margin:0; width:50%; text-align:justify; text-justify:inter-word; }
+
+
+	header div.description-of-self div.about-content { width: 92.52100840336134%/*600/1142.4*/; height: 20rem/*320/16*/; margin-bottom:0;}
+	header div.description-of-self div.about-content h3 { font-size: 1.4375rem/*23/16*/; font-family: 'lobster', cursive; } 
+	header div.description-of-self div.about-content p { font-size: 1.6875rem/*27/16*/; font-family: serif; font-weight: 300;  padding-left:0;}
+
+
+	/* secion technical-interest*/
+
+	section aside div.technologies-interested { flex-wrap:wrap; height:37rem;}
+	section aside div.technologies-interested div.tech  { width: 45%;  }
+
+	section aside div.technologies-interested div.tech.quotepart { flex-grow: 0; padding:0;}
+
+	section aside div.technologies-interested div.tech.quotepart blockquote p { font-size: 1.3rem; text-align:justify; text-justify:inter-word; margin-bottom: .5rem; }
+	section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) { font-size: 1.3rem; margin-left: 0; }
+	section aside div.technologies-interested div.tech.quotepart blockquote p.techquote::before { font-size:2rem; }
+	section aside div.technologies-interested div.tech.quotepart blockquote p.techquote::after { font-size: 2rem; }
+
+
+	/* section - professionalexp */
+
+	section.professionalexp div.professionalexp-container { flex-direction:column; }
+
+	section.professionalexp div.content-techm  { height:50%; width:100%; margin-bottom:1.5rem; }
+
+	section.professionalexp div.content-oracle { height:50%; width:100%; }
+
+
+	/* section - work*/
+
+	section.section-work div.work p { font-size:1.3156799rem; text-align:justify; text-justify:inter-word; }
+	section.section-work div.work div.work-image { background:url(images/work_img_767.png) no-repeat; background-size: 100% 100%; }
+
+	/* article */
+
+	article div.recommended p.article-para a { width: 90%; font-size:1.45rem; }
+	article div.recommended h2 { font-size:1.35rem;}
+	article div.recommended p.article-para { font-size: 1.3rem; }
+
+
+	/* Footer */
+
+	footer a.fb { margin-left:58%; }
+
+}
+
+@media all and (max-width:650px) {
+
+	#page { width: 100vw; }
+
+	/* header */
+
+	header div.welcome-text h1 { font-size: 3.5rem; }
+
+	/* secion technical-interest*/
+
+	section aside div.technologies-interested div.tech.quotepart blockquote { padding:0; }
+	section aside div.technologies-interested div.tech.quotepart blockquote p { font-size: 1.2rem; margin:0;}
+	section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) { font-size: 1.2rem;  }
+	section aside div.technologies-interested div.tech.quotepart blockquote p.techquote::before { content:''; }
+	section aside div.technologies-interested div.tech.quotepart blockquote p.techquote::after { content:''; }
+
+	/* section work*/
+
+	section.section-work div.work div.work-image { height:70%; }
+
+
+	/* article */
+
+	section.section-article { background-color: #CD7F32; padding: .7rem; height: 100%;}
+
+	section > article { background: url(images/web-design.jpg) no-repeat; background-size: 100% 40%;   }
+
+	article div.recommended h2 { visibility: hidden; margin-top:.5rem;}
+	article div.recommended p.article-para { margin-left: 0; font-size: 1.4rem; margin-top:10rem;}
+	article div.recommended p.article-para::before { content:'A Dao of Web Design by John Allsopp'; display: block; font-style: italic; font-family: 'lobster', cursive; font-size: 1.4875rem; margin-bottom:1rem;}
+	article div.recommended p.article-para a { width: 60%; }
+
+	/* Footer */
+
+	footer a.fb { margin-left:53%; }
+
+}
+
+@media all and (max-width:535px) {
+
+	header div.welcome-text h1 { font-size: 3rem; }
+
+	section p.text-tech { font-size: 1.3875rem; margin-bottom:1.7rem;}
+
+    section aside div.technologies-interested div.tech.quotepart blockquote { text-align:none; text-justify:none; }
+	section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) span { display:none;  }
+
+	section.section-work div.work div.work-image { height:70%; }
+
+	footer a.fb { margin-left:48%; }
+}
+
+@media all and (max-width:500px) {
+
+	header div.welcome-text h1 { font-size: 2.85rem; }
+
+	header div.description-of-self div.profile-picture { width: 29.19677871148459%; height: 10.8125rem; margin-left: 6.4005602240896%/*15/1142.4*/; margin-bottom: 1.5rem; }
+
+
+    section aside div.technologies-interested { height: 100%; }
+	section aside div.technologies-interested div.tech  { width: 95%; height:7rem; }
+
+	section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) span { display:inline;  }
+
+
+	section aside div.technologies-interested div.tech.java p { font-size:3.5rem; }
+	section aside div.technologies-interested div.tech.css p { font-size:3.2rem; }
+	section aside div.technologies-interested div.tech.js p { font-size: 2.3rem; }
+	section aside div.technologies-interested div.tech.db p { font-size: 2rem; margin-left: 33%; }
+	section aside div.technologies-interested div.tech.ai p { font-size: 2rem; margin-left: 35%; }
+
+	/* article */
+
+	article div.recommended h2 { visibility: hidden; margin-top:.5rem;}
+	article div.recommended p.article-para { margin-left: 0; font-size: 1.4rem; margin-top:13rem;}
+	article div.recommended p.article-para::before { content:'A Dao of Web Design by John Allsopp'; display: block; font-style: italic; font-family: 'lobster', cursive; font-size: 1.4875rem; margin-bottom:1rem;}
+	article div.recommended p.article-para a { width: 67%; }
+
+	/* Footer */
+
+	footer a.fb { margin-left:42.5%; }
+
+}
+
+@media all and (max-width:420px) {
+
+    header div.welcome-text {padding:0; margin:0 auto 0 auto;}
+	header div.welcome-text h1 { font-size: 2rem;  }
+
+    header div.description-of-self div.about-content h1 { font-size: 1.6rem; } 
+	header div.description-of-self div.about-content h3 { font-size: 1.4rem; } 
+	header div.description-of-self div.about-content p { font-size: 1.5rem; }
+
+	header div.description-of-self { flex-wrap:wrap; flex-direction:column; padding:0;}
+
+	header div.description-of-self div.about-content { order:0; }
+
+	header div.description-of-self div.profile-picture { width: 65%; height: 16.8125rem; margin-top:0; }
+
+    header div.description-of-self div.block-quote { margin-top:0; }
+	header div.description-of-self div.block-quote blockquote { box-sizing: border-box; width: 90vw;  }
+	header div.description-of-self div.block-quote { margin:0; width:50%; text-align:justify; text-justify:inter-word; }
+
+	section p.text-tech { margin-bottom:3.5rem;}
+	section aside div.technologies-interested div.tech.js p { font-size: 2rem; }
+
+	section.section-work div.work > p { font-size:1.2rem; }
+	section.section-work div.work h2.h2-work { font-size:1.2rem; }
+
+	section.section-work div.work div.work-image { background:url(images/work_img_420.png) no-repeat; background-size: 100% 100%; }
+
+    article div.recommended p.article-para a > span { display:none; }
+	article div.recommended p.article-para a { width: 80%; margin-left:9%;}
+
+    footer a.fb { margin-left:25%; }
+	
+
+}
+
+@media all and (max-width:319px) {
+
+header div.welcome-text h1 { font-size: 1.8rem; }
+
+header div.welcome-text h1 > span { display:none; }
+
+header div.welcome-text h1:nth-child(1) { color: red; }
+header div.welcome-text h1:nth-child(3) { color: yellow; }
+header div.welcome-text h1:nth-child(5) { color: blue; }
+header div.welcome-text h1:nth-child(7) { color: red; }
+header div.welcome-text h1:nth-child(9) { color: yellow; }
+header div.welcome-text h1:nth-child(11) { color: blue; }
+header div.welcome-text h1:nth-child(13) { color: red; }
+
+header div.description-of-self { padding:0; justify-content:space-around; align-content:space-around; }
+header div.description-of-self div.profile-picture { width: 75%; height: 12.8125rem;  }
+
+header div.description-of-self div.about-content { height:50%; margin-top:1rem; }
+header div.description-of-self div.about-content h1 { font-size: 1.4rem; } 
+header div.description-of-self div.about-content h3 { font-size: 1.3rem; } 
+header div.description-of-self div.about-content p { font-size: 1.4rem; }
+
+header div.description-of-self div.block-quote{ height:50%; }
+header div.description-of-self div.block-quote blockquote { padding-right:1rem; box-shadow:none;  }
+header div.description-of-self div.block-quote blockquote p { font-size: 1.4rem; padding-left:0; }
+header div.description-of-self div.block-quote blockquote p.quote { font-size: 1.4rem; }
+header div.description-of-self div.block-quote blockquote p.quote::before { font-size:1.9rem;}
+header div.description-of-self div.block-quote blockquote p.quote::after { font-size: 1rem; }
+header div.description-of-self div.block-quote blockquote p.quote span { font-size: 1rem; }
+header div.description-of-self div.block-quote blockquote p.credit { font-size: 1.2rem;}
+
+section.technical-interest p.text-tech { font-size:1.2rem; margin-bottom:7rem; }
+
+section aside div.technologies-interested div.tech.js p { font-size: 1.4rem; margin-left:31%;}
+section aside div.technologies-interested div.tech.html p { font-size: 2rem; margin-left:30%;}
+section aside div.technologies-interested div.tech.java p { font-size: 2.5rem; }
+section aside div.technologies-interested div.tech.db p { font-size: 1.5rem; }
+section aside div.technologies-interested div.tech.bc p { font-size: 2rem; }
+section aside div.technologies-interested div.tech.db p { font-size: 1.3rem; }
+section aside div.technologies-interested div.tech.ai p { font-size: 1.3rem; }
+section aside div.technologies-interested div.tech.css p { font-size: 2rem; margin-left:40%; }
+
+section aside div.technologies-interested div.tech.quotepart { display:none; }
+
+section.section-work div.work div.work-image { display:none; }
+section.section-work { height:16rem; }
+section.section-work div.work { height:12rem; }
+
+section > article { background-size: 100% 30%;   }
+article div.recommended p.article-para { font-size: 1.2rem; margin-top:7rem; } 
+
+footer p { display:block; font-size: 1rem; }
+footer a.fb { margin-left:5%; }
+
+}
+
+@media all and (max-width:189px) {
+
+	section.technical-interest p.text-tech { font-size:1.2rem; margin-bottom:7rem; }
+
+	section aside div.technologies-interested div.tech.html { background: none; }
+	section aside div.technologies-interested div.tech.css { background: none; }
+	section aside div.technologies-interested div.tech.js { background: none; }
+	section aside div.technologies-interested div.tech.java { background: none; }
+	section aside div.technologies-interested div.tech.db { background: none; }
+	section aside div.technologies-interested div.tech.bc { background: none; }
+	section aside div.technologies-interested div.tech.ai { background: none; }
+
+	section aside div.technologies-interested div.tech.js p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.html p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.java p { font-size: 1.2rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.db p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.bc p { font-size: 2rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.db p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.ai p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.css p { font-size: 2rem; margin-left:0; }
+
+	section.professionalexp div.content-professional p.prof-txt, ul li { font-size:1rem; margin-left:0;}
+	section.professionalexp div.content-professional ul li { font-size: 1rem;}
+	section.professionalexp div.content-professional:hover { transform: scale(1,1); }
+
+	section.professionalexp div.content-techm:hover { transform: scale(1,1); }
+	section.professionalexp div.content-techm p.prof-para { font-size: 1rem; }
+
+	
+	section.professionalexp div.content-oracle:hover { transform: scale(1,1); }
+	section.professionalexp div.content-oracle p.prof-para { font-size: 1rem; }
+
+	section.section-work { height: 20rem; }
+	section.section-work div.work { height: 90%; }
+	
+
+	section > article { background: none; }
+    article div.recommended h2 { visibility: visible; margin-top:.5rem; margin-left:0;}
+	article div.recommended p.article-para { font-size: 1rem; margin-top:0;}
+	article div.recommended p.article-para::before { content:''; }
+	article div.recommended p.article-para a { width: 100%; margin-left:0;}
+
+	footer a {margin:0;}
+
+}
+
