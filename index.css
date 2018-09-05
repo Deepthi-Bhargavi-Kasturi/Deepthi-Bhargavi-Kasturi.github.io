@@ -553,6 +553,8 @@ footer a.fb { margin-left:68%; }
 
 @media all and (max-width:320px) {
 
+#page { width: 90vw; }
+
 header div.welcome-text h1 { font-size: 1.8rem; }
 
 header div.welcome-text h1 > span { display:none; }
