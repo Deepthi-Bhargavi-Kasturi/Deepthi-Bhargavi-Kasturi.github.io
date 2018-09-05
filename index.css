@@ -526,15 +526,11 @@ footer a.fb { margin-left:68%; }
 @media all and (max-width:420px) {
 
     header div.welcome-text {padding:0; margin:0 auto 0 auto;}
-	header div.welcome-text h1 { font-size: 2rem;  }
-
-    /*header div.description-of-self div.about-content h1 { font-size: 1.6rem; } 
-	header div.description-of-self div.about-content h3 { font-size: 1.4rem; } 
-	header div.description-of-self div.about-content p { font-size: 1.5rem; }*/
+	header div.welcome-text h1 { font-size: 1.8rem; }
 
 	header div.description-of-self { flex-wrap:wrap; flex-direction:column; padding:0;}
 
-	header div.description-of-self div.about-content { order:0; }
+	header div.description-of-self div.about-content { order:0; height:50%;}
 
 	header div.description-of-self div.profile-picture { width: 65%; height: 16.8125rem; margin-top:0; }
 
@@ -542,7 +538,7 @@ footer a.fb { margin-left:68%; }
 	header div.description-of-self div.block-quote blockquote { box-sizing: border-box; width: 80vw;  }
 	header div.description-of-self div.block-quote { margin:0; width:50%; text-align:justify; text-justify:inter-word; }
 
-	section p.text-tech { margin-bottom:3.5rem;}
+	section p.text-tech { font-size:1.2rem; }
 	section aside div.technologies-interested div.tech.js p { font-size: 2rem; }
 
 	section.section-work div.work > p { font-size:1.2rem; }
@@ -550,12 +546,12 @@ footer a.fb { margin-left:68%; }
 
 	section.section-work div.work div.work-image { background:url(images/work_img_420.PNG) no-repeat; background-size: 100% 100%; }
 
-    footer a.fb { margin-left:25%; }
+    footer a.fb { margin-left:18%; }
 	
 
 }
 
-@media all and (max-width:330px) {
+@media all and (max-width:320px) {
 
 header div.welcome-text h1 { font-size: 1.8rem; }
 
@@ -607,43 +603,45 @@ section > article { background-size: 100% 30%;   }
 article div.recommended p.article-para { font-size: 1.2rem; margin-top:7rem; } 
 
 footer p { display:block; font-size: 1rem; }
-footer a.fb { margin-left:5%; }
+footer a {margin:1%;}
 
 }
 
 @media all and (max-width:189px) {
 
-	section.technical-interest p.text-tech { font-size:1.2rem; margin-bottom:7rem; }
+	section.technical-interest p.text-tech { font-size:1.1rem; margin-bottom:7.5rem; }
 
-	section aside div.technologies-interested div.tech.html { background: none; }
-	section aside div.technologies-interested div.tech.css { background: none; }
-	section aside div.technologies-interested div.tech.js { background: none; }
-	section aside div.technologies-interested div.tech.java { background: none; }
-	section aside div.technologies-interested div.tech.db { background: none; }
-	section aside div.technologies-interested div.tech.bc { background: none; }
-	section aside div.technologies-interested div.tech.ai { background: none; }
+    section aside div.technologies-interested div.tech { margin-bottom:2%; }
+	section aside div.technologies-interested div.tech.html { background: none; height:50%; text-align:center;}
+	section aside div.technologies-interested div.tech.css { background: none; height:50%; text-align:center;}
+	section aside div.technologies-interested div.tech.js { background: none; height:50%; text-align:center;}
+	section aside div.technologies-interested div.tech.java { background: none; height:50%; text-align:center;}
+	section aside div.technologies-interested div.tech.db { background: none; height:50%; text-align:center;}
+	section aside div.technologies-interested div.tech.bc { background: none; height:50%; text-align:center;}
+	section aside div.technologies-interested div.tech.ai { background: none; height:50%; text-align:center;}
 
-	section aside div.technologies-interested div.tech.js p { font-size: 1rem; margin-left:0;}
-	section aside div.technologies-interested div.tech.html p { font-size: 1rem; margin-left:0;}
-	section aside div.technologies-interested div.tech.java p { font-size: 1.2rem; margin-left:0;}
-	section aside div.technologies-interested div.tech.db p { font-size: 1rem; margin-left:0;}
-	section aside div.technologies-interested div.tech.bc p { font-size: 2rem; margin-left:0;}
-	section aside div.technologies-interested div.tech.db p { font-size: 1rem; margin-left:0;}
-	section aside div.technologies-interested div.tech.ai p { font-size: 1rem; margin-left:0;}
-	section aside div.technologies-interested div.tech.css p { font-size: 2rem; margin-left:0; }
+	section aside div.technologies-interested div.tech.js p { font-size: 1.3rem; margin:2%;}
+	section aside div.technologies-interested div.tech.html p { font-size: 1.5rem; margin:2%;}
+	section aside div.technologies-interested div.tech.java p { font-size: 1.5rem; margin:2%;}
+	section aside div.technologies-interested div.tech.db p { font-size: 1.3rem; margin:2%;}
+	section aside div.technologies-interested div.tech.bc p { font-size: 1.3rem; margin:2%;}
+	section aside div.technologies-interested div.tech.ai p { font-size: 1.3rem; margin:2%;}
+	section aside div.technologies-interested div.tech.css p { font-size: 1.5rem; margin:2%; }
 
 	section.professionalexp div.content-professional p.prof-txt, ul li { font-size:1rem; margin-left:0;}
 	section.professionalexp div.content-professional ul li { font-size: 1rem;}
-	section.professionalexp div.content-professional:hover { transform: scale(1,1); }
+	section.professionalexp div.content-professional:hover { transform: scale(1,1); -webkit-transform: scale(1,1);-o-transform: scale(1,1);-moz-transform: scale(1,1); }
 
-	section.professionalexp div.content-techm:hover { transform: scale(1,1); }
+	section.professionalexp div.content-techm:hover { transform: scale(1,1);-webkit-transform: scale(1,1);-o-transform: scale(1,1);-moz-transform: scale(1,1);}
 	section.professionalexp div.content-techm p.prof-para { font-size: 1rem; }
+	section.professionalexp div.content-techm h2.prof-header { font-size: 1rem; }
 
 	
-	section.professionalexp div.content-oracle:hover { transform: scale(1,1); }
+	section.professionalexp div.content-oracle:hover { transform: scale(1,1); -webkit-transform: scale(1,1);-o-transform: scale(1,1);-moz-transform: scale(1,1); }
 	section.professionalexp div.content-oracle p.prof-para { font-size: 1rem; }
+	section.professionalexp div.content-oracle h2.prof-header { font-size: 1rem; }
 
-	section.section-work { height: 20rem; }
+	section.section-work { height: 23rem; }
 	section.section-work div.work { height: 90%; }
 	
 
