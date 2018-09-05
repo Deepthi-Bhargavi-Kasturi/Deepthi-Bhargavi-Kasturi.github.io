@@ -356,7 +356,7 @@ footer a.fb { margin-left:68%; }
 
 @media all and (max-width:767px) {
 
-	#page { width:96vw; }
+	#page { width:94vw; }
 
 	/* header */
 
@@ -366,7 +366,7 @@ footer a.fb { margin-left:68%; }
 
 	header div.description-of-self div.about-content { order:1; }
 
-	header div.description-of-self div.profile-picture { width: 32.19677871148459%; height: 14.8125rem; margin-left: 4.4005602240896%/*15/1142.4*/; margin-bottom: 1.5rem; }
+	header div.description-of-self div.profile-picture { width: 29.19677871148459%; height: 11.8125rem; margin-left: 4.4005602240896%/*15/1142.4*/; margin-bottom: 1rem; }
 
 	header div.description-of-self div.block-quote blockquote { box-sizing: border-box; width: 50vw; height:95%; padding-right: .4rem; }
 	header div.description-of-self div.block-quote { margin:0; width:50%; text-align:justify; text-justify:inter-word; }
