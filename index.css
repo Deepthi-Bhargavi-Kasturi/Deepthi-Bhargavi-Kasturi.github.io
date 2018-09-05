@@ -316,7 +316,7 @@ footer a.fb { margin-left:68%; }
 
 @media all and (min-width:768px) and (max-width:899px) {
 
-	#page { width:95vw; }
+	#page { width:94vw; }
 
 	/* header */
 
@@ -326,7 +326,7 @@ footer a.fb { margin-left:68%; }
 
 	header div.description-of-self div.profile-picture { width: 26.19677871148459%; height: 14.5rem; margin-left:2%;}
 
-	header div.description-of-self div.block-quote blockquote { width: 90vw; margin-top:2rem; }
+	header div.description-of-self div.block-quote blockquote { width: 88vw; margin-top:2rem; }
 	header div.description-of-self div.block-quote blockquote p { color: white; }
 	header div.description-of-self div.block-quote blockquote p.quote::before { color: red;}
 	header div.description-of-self div.block-quote blockquote p.quote::after { color: yellow; }
