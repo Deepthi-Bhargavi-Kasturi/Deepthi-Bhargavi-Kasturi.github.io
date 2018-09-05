@@ -584,16 +584,16 @@ header div.description-of-self div.block-quote blockquote p.quote::after { font-
 header div.description-of-self div.block-quote blockquote p.quote span { font-size: 1rem; }
 header div.description-of-self div.block-quote blockquote p.credit { font-size: 1.2rem;}
 
-section.technical-interest p.text-tech { font-size:1.2rem; margin-bottom:7rem; }
+section.technical-interest p.text-tech { font-size:1.2rem; margin-bottom:7.3rem; }
 
-section aside div.technologies-interested div.tech.js p { font-size: 1.4rem; margin-left:31%;}
-section aside div.technologies-interested div.tech.html p { font-size: 2rem; margin-left:32%;}
-section aside div.technologies-interested div.tech.java p { font-size: 2.5rem; }
-section aside div.technologies-interested div.tech.db p { font-size: 1.5rem; }
-section aside div.technologies-interested div.tech.bc p { font-size: 2rem; }
-section aside div.technologies-interested div.tech.db p { font-size: 1.3rem; }
-section aside div.technologies-interested div.tech.ai p { font-size: 1.3rem; }
-section aside div.technologies-interested div.tech.css p { font-size: 2rem; margin-left:40%; }
+section aside div.technologies-interested div.tech.js p { font-size: 1.25rem; margin-left:30%;}
+section aside div.technologies-interested div.tech.html p { font-size: 1.5rem; margin-left:40%;}
+section aside div.technologies-interested div.tech.java p { font-size: 1.9rem; }
+section aside div.technologies-interested div.tech.db p { font-size: 1.4rem; }
+section aside div.technologies-interested div.tech.bc p { font-size: 1.5rem; margin-left:35%; }
+section aside div.technologies-interested div.tech.db p { font-size: 1.2rem; }
+section aside div.technologies-interested div.tech.ai p { font-size: 1.2rem; }
+section aside div.technologies-interested div.tech.css p { font-size: 1.5rem; margin-left:40%; }
 
 section aside div.technologies-interested div.tech.quotepart { display:none; }
 
@@ -609,7 +609,7 @@ footer a {margin:1%;}
 
 }
 
-@media all and (max-width:189px) {
+@media all and (max-width:201px) {
 
 	section.technical-interest p.text-tech { font-size:1.1rem; margin-bottom:7.5rem; }
 
