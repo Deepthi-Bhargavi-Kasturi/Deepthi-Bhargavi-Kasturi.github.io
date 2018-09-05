@@ -619,17 +619,21 @@ footer a {margin:1%;}
 
 @media all and (max-width:240px) {
 
+	#page { width: 89vw; }
+
+
 	header div.welcome-text h1 { font-size: 1.2rem; }
 
-	header div.description-of-self div.profile-picture { width: 49.5%; height: 6.8125rem;  }
+	header div.description-of-self div.profile-picture { width: 60%; height: 6.8125rem;  }
+	header div.description-of-self div.profile-picture:hover { transform: rotate(0deg); -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); }
 
 	header div.description-of-self div.about-content h1 { font-size: 1.2rem; } 
 	header div.description-of-self div.about-content h3 { font-size: 1.1rem; } 
 	header div.description-of-self div.about-content p { font-size: 1.2rem; }
 
-	section.technical-interest p.text-tech { font-size:1.1rem; margin-bottom:7.5rem; }
+	section.technical-interest p.text-tech { font-size:1.05rem; margin-bottom:8rem; }
              
-    section aside div.technologies-interested div.tech { margin-bottom:2%; border: thin white; box-shadow: 0 0 1rem white; }
+    section aside div.technologies-interested div.tech { width:89%; margin-bottom:2%; border: thin white; box-shadow: 0 0 1rem white; }
     section aside div.technologies-interested div.tech:hover { transform: scale(1,1); -webkit-transform: scale(1,1);-o-transform: scale(1,1);-moz-transform: scale(1,1);  }
 	section aside div.technologies-interested div.tech.html { background: none; height:50%; text-align:center;}
 	section aside div.technologies-interested div.tech.css { background: none; height:50%; text-align:center;}
@@ -665,12 +669,12 @@ footer a {margin:1%;}
 	section.professionalexp div.content-oracle p.prof-para { font-size: .9rem; }
 	section.professionalexp div.content-oracle h2.prof-header { font-size: .9rem; }
 
-	section.section-work { height: 23rem; }
+	section.section-work { height: 24.5rem; }
 	section.section-work div.work { height: 90%; }
 	
 
 	section > article { background: none; }
-    article div.recommended h2 { visibility: visible; margin-top:.5rem; margin-left:0;}
+    article div.recommended h2 { visibility: visible; margin-top:.5rem; margin-left:0; font-size:.5rem;}
 	article div.recommended p.article-para { font-size: 1rem; margin-top:0;}
 	article div.recommended p.article-para::before { content:''; }
 	article div.recommended p.article-para a { width: 100%; margin-left:0;}
