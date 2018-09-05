@@ -419,7 +419,7 @@ footer a.fb { margin-left:68%; }
 
 @media all and (max-width:650px) {
 
-	#page { width: 100vw; }
+	#page { width:93.5vw; }
 
 	/* header */
 
@@ -427,9 +427,11 @@ footer a.fb { margin-left:68%; }
 
 	/* secion technical-interest*/
 
+	section p.text-tech { margin-bottom:3rem;}
+
 	section aside div.technologies-interested div.tech.quotepart blockquote { padding:0; }
 	section aside div.technologies-interested div.tech.quotepart blockquote p { font-size: 1.2rem; margin:0;}
-	section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) { font-size: 1.2rem;  }
+	section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) { font-size: 1.1rem;  }
 	section aside div.technologies-interested div.tech.quotepart blockquote p.techquote::before { content:''; }
 	section aside div.technologies-interested div.tech.quotepart blockquote p.techquote::after { content:''; }
 
@@ -457,12 +459,23 @@ footer a.fb { margin-left:68%; }
 
 @media all and (max-width:535px) {
 
+	#page { width: 93vw; }
+
 	header div.welcome-text h1 { font-size: 3rem; }
 
-	section p.text-tech { font-size: 1.3875rem; margin-bottom:1.7rem;}
+	header div.description-of-self div.profile-picture { width: 28.19677871148459%; height: 8.8125rem; margin-left: 3.4005602240896%/*15/1142.4*/; margin-bottom: 1.5rem; }
+
+	section p.text-tech { font-size: 1.3875rem; margin-bottom:1.9rem;}
 
     section aside div.technologies-interested div.tech.quotepart blockquote { text-align:none; text-justify:none; }
 	section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) span { display:none;  }
+
+	section aside div.technologies-interested div.tech.html p { font-size:2.5rem; }
+	section aside div.technologies-interested div.tech.java p { font-size:3.5rem; }
+	section aside div.technologies-interested div.tech.css p { font-size:3.2rem; }
+	section aside div.technologies-interested div.tech.js p { font-size: 1.5rem; }
+	section aside div.technologies-interested div.tech.db p { font-size: 1.5rem; margin-left: 33%; }
+	section aside div.technologies-interested div.tech.ai p { font-size: 1.5rem; margin-left: 35%; }
 
 	section.section-work div.work div.work-image { height:70%; }
 
@@ -471,33 +484,42 @@ footer a.fb { margin-left:68%; }
 
 @media all and (max-width:500px) {
 
-	header div.welcome-text h1 { font-size: 2.85rem; }
+	#page { width: 92vw; }
 
-	header div.description-of-self div.profile-picture { width: 29.19677871148459%; height: 10.8125rem; margin-left: 6.4005602240896%/*15/1142.4*/; margin-bottom: 1.5rem; }
+	header div.welcome-text h1 { font-size: 2.5rem; }
+   
+	header div.description-of-self div.profile-picture { width: 28.19677871148459%; height: 8.8125rem; margin-left: 4.4005602240896%/*15/1142.4*/; margin-bottom: 1.5rem; }
 
+	header div.description-of-self div.about-content h1 { font-size: 1.6rem; } 
+	header div.description-of-self div.about-content h3 { font-size: 1.4rem; } 
+	header div.description-of-self div.about-content p { font-size: 1.5rem; }
 
     section aside div.technologies-interested { height: 100%; }
 	section aside div.technologies-interested div.tech  { width: 95%; height:7rem; }
 
 	section aside div.technologies-interested div.tech.quotepart blockquote p:nth-child(2) span { display:inline;  }
 
-
 	section aside div.technologies-interested div.tech.java p { font-size:3.5rem; }
 	section aside div.technologies-interested div.tech.css p { font-size:3.2rem; }
-	section aside div.technologies-interested div.tech.js p { font-size: 2.3rem; }
+	section aside div.technologies-interested div.tech.js p { font-size: 2.1rem; }
 	section aside div.technologies-interested div.tech.db p { font-size: 2rem; margin-left: 33%; }
 	section aside div.technologies-interested div.tech.ai p { font-size: 2rem; margin-left: 35%; }
+
+	section.section-work div.work > p { font-size:1.2rem; }
+	section.section-work div.work h2.h2-work { font-size:1.2rem; }
+
+	section.section-work div.work div.work-image { background:url(images/work_img_420.PNG) no-repeat; background-size: 100% 100%; }
 
 	/* article */
 
 	article div.recommended h2 { visibility: hidden; margin-top:.5rem;}
 	article div.recommended p.article-para { margin-left: 0; font-size: 1.4rem; margin-top:13rem;}
 	article div.recommended p.article-para::before { content:'A Dao of Web Design by John Allsopp'; display: block; font-style: italic; font-family: 'lobster', cursive; font-size: 1.4875rem; margin-bottom:1rem;}
-	article div.recommended p.article-para a { width: 67%; }
-
+	article div.recommended p.article-para a > span { display:none; }
+	article div.recommended p.article-para a { width: 80%; margin-left:9%;}
 	/* Footer */
 
-	footer a.fb { margin-left:42.5%; }
+	footer a.fb { margin-left:35%; }
 
 }
 
@@ -506,9 +528,9 @@ footer a.fb { margin-left:68%; }
     header div.welcome-text {padding:0; margin:0 auto 0 auto;}
 	header div.welcome-text h1 { font-size: 2rem;  }
 
-    header div.description-of-self div.about-content h1 { font-size: 1.6rem; } 
+    /*header div.description-of-self div.about-content h1 { font-size: 1.6rem; } 
 	header div.description-of-self div.about-content h3 { font-size: 1.4rem; } 
-	header div.description-of-self div.about-content p { font-size: 1.5rem; }
+	header div.description-of-self div.about-content p { font-size: 1.5rem; }*/
 
 	header div.description-of-self { flex-wrap:wrap; flex-direction:column; padding:0;}
 
@@ -523,13 +545,10 @@ footer a.fb { margin-left:68%; }
 	section p.text-tech { margin-bottom:3.5rem;}
 	section aside div.technologies-interested div.tech.js p { font-size: 2rem; }
 
-	section.section-work div.work > p { font-size:1.2rem; }
+	/*section.section-work div.work > p { font-size:1.2rem; }
 	section.section-work div.work h2.h2-work { font-size:1.2rem; }
 
-	section.section-work div.work div.work-image { background:url(images/work_img_420.PNG) no-repeat; background-size: 100% 100%; }
-
-    article div.recommended p.article-para a > span { display:none; }
-	article div.recommended p.article-para a { width: 80%; margin-left:9%;}
+	section.section-work div.work div.work-image { background:url(images/work_img_420.PNG) no-repeat; background-size: 100% 100%; }*/
 
     footer a.fb { margin-left:25%; }
 	
