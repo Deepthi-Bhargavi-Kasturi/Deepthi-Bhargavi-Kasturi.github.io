@@ -201,7 +201,7 @@ footer a { margin: 0.3125rem/*5px*/;}
 
 @media all and (max-width:1280px) {
 
-#page { width:80vw; }
+#page { width:75vw; }
 
 /* Header */
 
@@ -219,7 +219,7 @@ header div.description-of-self div.about-content h3 { font-size: 1.5rem; }
 header div.description-of-self div.about-content p { font-size: 1.7rem; }
 
 header div.description-of-self div.block-quote { margin:0; padding:0; }
-header div.description-of-self div.block-quote blockquote { width: 75vw; height:80%;margin-left:-.5%; background-color: transparent; box-shadow: 0 0 25px white;}
+header div.description-of-self div.block-quote blockquote { width: 69vw; height:80%;margin-left:-.5%; background-color: transparent; box-shadow: 0 0 25px white;}
 header div.description-of-self div.block-quote blockquote p { color: white; }
 header div.description-of-self div.block-quote blockquote p.quote::before { color: red;}
 header div.description-of-self div.block-quote blockquote p.quote::after { color: yellow; }
