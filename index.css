@@ -508,7 +508,7 @@ footer a.fb { margin-left:68%; }
 	section.section-work div.work > p { font-size:1.2rem; }
 	section.section-work div.work h2.h2-work { font-size:1.2rem; }
 
-	section.section-work div.work div.work-image { background:url(images/work_img_420.PNG) no-repeat; background-size: 100% 100%; }
+	section.section-work div.work div.work-image {  background-size: 100% 100%; }
 
 	/* article */
 
@@ -539,16 +539,16 @@ footer a.fb { margin-left:68%; }
 	header div.description-of-self div.profile-picture { width: 65%; height: 16.8125rem; margin-top:0; }
 
     header div.description-of-self div.block-quote { margin-top:0; }
-	header div.description-of-self div.block-quote blockquote { box-sizing: border-box; width: 90vw;  }
+	header div.description-of-self div.block-quote blockquote { box-sizing: border-box; width: 80vw;  }
 	header div.description-of-self div.block-quote { margin:0; width:50%; text-align:justify; text-justify:inter-word; }
 
 	section p.text-tech { margin-bottom:3.5rem;}
 	section aside div.technologies-interested div.tech.js p { font-size: 2rem; }
 
-	/*section.section-work div.work > p { font-size:1.2rem; }
+	section.section-work div.work > p { font-size:1.2rem; }
 	section.section-work div.work h2.h2-work { font-size:1.2rem; }
 
-	section.section-work div.work div.work-image { background:url(images/work_img_420.PNG) no-repeat; background-size: 100% 100%; }*/
+	section.section-work div.work div.work-image { background:url(images/work_img_420.PNG) no-repeat; background-size: 100% 100%; }
 
     footer a.fb { margin-left:25%; }
 	
