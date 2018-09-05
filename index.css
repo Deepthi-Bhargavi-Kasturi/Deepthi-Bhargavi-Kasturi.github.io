@@ -623,6 +623,10 @@ footer a {margin:1%;}
 
 	header div.description-of-self div.profile-picture { width: 70%; height: 10.8125rem;  }
 
+	header div.description-of-self div.about-content h1 { font-size: 1.2rem; } 
+	header div.description-of-self div.about-content h3 { font-size: 1.1rem; } 
+	header div.description-of-self div.about-content p { font-size: 1.2rem; }
+
 	section.technical-interest p.text-tech { font-size:1.1rem; margin-bottom:7.5rem; }
              
     section aside div.technologies-interested div.tech { margin-bottom:2%; border: thin white; box-shadow: 0 0 1rem white; }
@@ -669,6 +673,7 @@ footer a {margin:1%;}
 	article div.recommended p.article-para { font-size: 1rem; margin-top:0;}
 	article div.recommended p.article-para::before { content:''; }
 	article div.recommended p.article-para a { width: 100%; margin-left:0;}
+	article div.recommended > h2 { font-size:1.2rem; }
 
 	footer a {margin:0;}
 
