@@ -448,7 +448,8 @@ footer a.fb { margin-left:68%; }
 
 	article div.recommended h2 { visibility: hidden; margin-top:.5rem;}
 	article div.recommended p.article-para { margin-left: 0; font-size: 1.4rem; margin-top:10rem;}
-	article div.recommended p.article-para::before { content:'A Dao of Web Design by John Allsopp'; display: block; font-style: italic; font-family: 'lobster', cursive; font-size: 1.4875rem; margin-bottom:1rem;}
+	article div.recommended p.article-para::before { content:'A Dao of Web Design by John Allsopp'; display: block; font-style: italic; 
+	                                                 font-family: 'lobster', cursive; font-size: 1.4875rem; margin-bottom:1rem;}
 	article div.recommended p.article-para a { width: 60%; }
 
 	/* Footer */
@@ -514,8 +515,6 @@ footer a.fb { margin-left:68%; }
 
 	article div.recommended h2 { visibility: hidden; margin-top:.5rem;}
 	article div.recommended p.article-para { margin-left: 0; font-size: 1.4rem; margin-top:13rem;}
-	article div.recommended p.article-para::before { content:'A Dao of Web Design by John Allsopp'; display: block; font-style: italic; font-family: 'lobster', cursive; 
-												     font-size: 1.4875rem; margin-bottom:1rem;}
 	article div.recommended p.article-para a > span { display:none; }
 	article div.recommended p.article-para a { width: 80%; margin-left:9%;}
 	/* Footer */
@@ -546,9 +545,9 @@ footer a.fb { margin-left:68%; }
 	section.section-work div.work h2.h2-work { font-size:1.2rem; }
 
 	section.section-work div.work div.work-image { background:url(images/work_img_420.PNG) no-repeat; background-size: 100% 90%; }
-
-    article div.recommended p.article-para { font-size:1.3rem; }
-	article div.recommended p.article-para::before { font-size: 1.4875rem; margin-top:1.5rem;}
+    
+    section > article {  background-size: 100% 35%;   }
+    article div.recommended p.article-para { font-size:1.4rem; }
 
     footer a.fb { margin-left:18%; }
 	
