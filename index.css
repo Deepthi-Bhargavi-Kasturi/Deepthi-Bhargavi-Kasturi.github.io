@@ -646,9 +646,9 @@ footer a {margin:1%;}
 	section aside div.technologies-interested div.tech.ai p { font-size: 1.3rem; margin:2%;}
 	section aside div.technologies-interested div.tech.css p { font-size: 1.5rem; margin:2%; }
 
-	section.professionalexp div.content-professional {  border: thin black; box-shadow: 0 0 .2rem #C2DFFF; }
-	section.professionalexp div.content-techm {  border: thin black; box-shadow: 0 0 .2rem #C2DFFF; }
-	section.professionalexp div.content-oracle {  border: thin black; box-shadow: 0 0 .2rem #C2DFFF; }
+	section.professionalexp div.content-professional {  border: thin #C2DFFF; box-shadow: 0 0 0 none; }
+	section.professionalexp div.content-techm {  border: thin #C2DFFF; box-shadow: 0 0 0 none; }
+	section.professionalexp div.content-oracle {  border: thin #C2DFFF; box-shadow: 0 0 0 none; }
 
 
 	section.professionalexp div.content-professional p.prof-txt, ul li { font-size:1rem; margin-left:0;}
